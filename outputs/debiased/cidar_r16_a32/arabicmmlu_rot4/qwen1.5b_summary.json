@@ -1,0 +1,38 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "adapter": "/l/users/soumedhik.bharati/checkpoints/dllora/qwen1.5b_cidar_r16_a32",
+  "benchmark": "arabicmmlu",
+  "shots": 0,
+  "rotation": 4,
+  "questions": 340,
+  "accuracy": 0.5206,
+  "unparsed_rate": 0.0,
+  "chance": 0.2,
+  "always_A": 0.4088,
+  "pred_counts": {
+    "A": 126,
+    "B": 90,
+    "C": 41,
+    "D": 54,
+    "E": 29
+  },
+  "accuracy_by_group": {
+    "Humanities": 0.6471,
+    "Language": 0.4533,
+    "Other": 0.3333,
+    "STEM": 1.0,
+    "Social Science": 0.0
+  },
+  "accuracy_by_task": {
+    "Arabic Language (Grammar)": 0.4533,
+    "Biology (High School)": 1.0,
+    "Driving Test": 0.0,
+    "General Knowledge": 1.0,
+    "General Knowledge (Middle School)": 0.0,
+    "Geography (Middle School)": 0.0,
+    "Islamic Studies (High School)": 0.8824,
+    "Islamic Studies (Primary School)": 1.0,
+    "Law (Professional)": 0.604,
+    "Math (Primary School)": 1.0
+  }
+}

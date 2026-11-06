@@ -1,0 +1,736 @@
+model,condition,analysis,benchmark,group,accuracy
+llama8b,baseline,group,arabicmmlu,Humanities,53.45
+llama8b,baseline,group,arabicmmlu,Language,52.43
+llama8b,baseline,group,arabicmmlu,Other,58.94
+llama8b,baseline,group,arabicmmlu,STEM,48.95
+llama8b,baseline,group,arabicmmlu,Social Science,52.23
+llama8b,baseline,task,arabicmmlu,Accounting (University),41.89
+llama8b,baseline,task,arabicmmlu,Arabic Language (General),55.88
+llama8b,baseline,task,arabicmmlu,Arabic Language (Grammar),57.53
+llama8b,baseline,task,arabicmmlu,Arabic Language (High School),33.85
+llama8b,baseline,task,arabicmmlu,Arabic Language (Middle School),66.67
+llama8b,baseline,task,arabicmmlu,Arabic Language (Primary School),63.89
+llama8b,baseline,task,arabicmmlu,Biology (High School),38.25
+llama8b,baseline,task,arabicmmlu,Civics (High School),43.68
+llama8b,baseline,task,arabicmmlu,Civics (Middle School),41.53
+llama8b,baseline,task,arabicmmlu,Computer Science (High School),50.57
+llama8b,baseline,task,arabicmmlu,Computer Science (Middle School),70.37
+llama8b,baseline,task,arabicmmlu,Computer Science (Primary School),68.95
+llama8b,baseline,task,arabicmmlu,Computer Science (University),59.38
+llama8b,baseline,task,arabicmmlu,Driving Test,64.0
+llama8b,baseline,task,arabicmmlu,Economics (High School),44.44
+llama8b,baseline,task,arabicmmlu,Economics (Middle School),62.07
+llama8b,baseline,task,arabicmmlu,Economics (University),48.18
+llama8b,baseline,task,arabicmmlu,General Knowledge,51.27
+llama8b,baseline,task,arabicmmlu,General Knowledge (Middle School),59.88
+llama8b,baseline,task,arabicmmlu,General Knowledge (Primary School),59.26
+llama8b,baseline,task,arabicmmlu,Geography (High School),45.47
+llama8b,baseline,task,arabicmmlu,Geography (Middle School),61.76
+llama8b,baseline,task,arabicmmlu,Geography (Primary School),56.14
+llama8b,baseline,task,arabicmmlu,History (High School),42.11
+llama8b,baseline,task,arabicmmlu,History (Middle School),54.68
+llama8b,baseline,task,arabicmmlu,History (Primary School),53.92
+llama8b,baseline,task,arabicmmlu,Islamic Studies,40.85
+llama8b,baseline,task,arabicmmlu,Islamic Studies (High School),59.88
+llama8b,baseline,task,arabicmmlu,Islamic Studies (Middle School),60.08
+llama8b,baseline,task,arabicmmlu,Islamic Studies (Primary School),67.67
+llama8b,baseline,task,arabicmmlu,Law (Professional),48.41
+llama8b,baseline,task,arabicmmlu,Management (University),62.67
+llama8b,baseline,task,arabicmmlu,Math (Primary School),55.26
+llama8b,baseline,task,arabicmmlu,Natural Science (Middle School),63.22
+llama8b,baseline,task,arabicmmlu,Natural Science (Primary School),69.05
+llama8b,baseline,task,arabicmmlu,Philosophy (High School),53.85
+llama8b,baseline,task,arabicmmlu,Physics (High School),36.47
+llama8b,baseline,task,arabicmmlu,Political Science (University),54.29
+llama8b,baseline,task,arabicmmlu,Social Science (Middle School),50.62
+llama8b,baseline,task,arabicmmlu,Social Science (Primary School),67.38
+llama8b,baseline,gold_is_A,arabicmmlu,gold!=A,40.09
+llama8b,baseline,gold_is_A,arabicmmlu,gold=A,81.44
+llama8b,baseline,gold_is_A,mmlu,gold!=A,61.48
+llama8b,baseline,gold_is_A,mmlu,gold=A,71.73
+llama8b,CIDAR,group,arabicmmlu,Humanities,51.41
+llama8b,CIDAR,group,arabicmmlu,Language,49.27
+llama8b,CIDAR,group,arabicmmlu,Other,56.32
+llama8b,CIDAR,group,arabicmmlu,STEM,47.46
+llama8b,CIDAR,group,arabicmmlu,Social Science,48.8
+llama8b,CIDAR,task,arabicmmlu,Accounting (University),43.24
+llama8b,CIDAR,task,arabicmmlu,Arabic Language (General),50.87
+llama8b,CIDAR,task,arabicmmlu,Arabic Language (Grammar),54.89
+llama8b,CIDAR,task,arabicmmlu,Arabic Language (High School),34.7
+llama8b,CIDAR,task,arabicmmlu,Arabic Language (Middle School),60.49
+llama8b,CIDAR,task,arabicmmlu,Arabic Language (Primary School),58.6
+llama8b,CIDAR,task,arabicmmlu,Biology (High School),37.14
+llama8b,CIDAR,task,arabicmmlu,Civics (High School),42.91
+llama8b,CIDAR,task,arabicmmlu,Civics (Middle School),38.84
+llama8b,CIDAR,task,arabicmmlu,Computer Science (High School),49.43
+llama8b,CIDAR,task,arabicmmlu,Computer Science (Middle School),74.07
+llama8b,CIDAR,task,arabicmmlu,Computer Science (Primary School),64.39
+llama8b,CIDAR,task,arabicmmlu,Computer Science (University),62.5
+llama8b,CIDAR,task,arabicmmlu,Driving Test,62.37
+llama8b,CIDAR,task,arabicmmlu,Economics (High School),46.3
+llama8b,CIDAR,task,arabicmmlu,Economics (Middle School),65.52
+llama8b,CIDAR,task,arabicmmlu,Economics (University),42.34
+llama8b,CIDAR,task,arabicmmlu,General Knowledge,48.42
+llama8b,CIDAR,task,arabicmmlu,General Knowledge (Middle School),56.59
+llama8b,CIDAR,task,arabicmmlu,General Knowledge (Primary School),56.79
+llama8b,CIDAR,task,arabicmmlu,Geography (High School),42.97
+llama8b,CIDAR,task,arabicmmlu,Geography (Middle School),54.41
+llama8b,CIDAR,task,arabicmmlu,Geography (Primary School),49.71
+llama8b,CIDAR,task,arabicmmlu,History (High School),39.78
+llama8b,CIDAR,task,arabicmmlu,History (Middle School),50.41
+llama8b,CIDAR,task,arabicmmlu,History (Primary School),51.63
+llama8b,CIDAR,task,arabicmmlu,Islamic Studies,39.96
+llama8b,CIDAR,task,arabicmmlu,Islamic Studies (High School),56.89
+llama8b,CIDAR,task,arabicmmlu,Islamic Studies (Middle School),58.68
+llama8b,CIDAR,task,arabicmmlu,Islamic Studies (Primary School),64.2
+llama8b,CIDAR,task,arabicmmlu,Law (Professional),52.12
+llama8b,CIDAR,task,arabicmmlu,Management (University),48.0
+llama8b,CIDAR,task,arabicmmlu,Math (Primary School),54.03
+llama8b,CIDAR,task,arabicmmlu,Natural Science (Middle School),59.78
+llama8b,CIDAR,task,arabicmmlu,Natural Science (Primary School),63.59
+llama8b,CIDAR,task,arabicmmlu,Philosophy (High School),46.15
+llama8b,CIDAR,task,arabicmmlu,Physics (High School),39.74
+llama8b,CIDAR,task,arabicmmlu,Political Science (University),49.84
+llama8b,CIDAR,task,arabicmmlu,Social Science (Middle School),44.12
+llama8b,CIDAR,task,arabicmmlu,Social Science (Primary School),61.56
+llama8b,CIDAR,gold_is_A,arabicmmlu,gold!=A,34.67
+llama8b,CIDAR,gold_is_A,arabicmmlu,gold=A,85.44
+llama8b,CIDAR,gold_is_A,mmlu,gold!=A,60.91
+llama8b,CIDAR,gold_is_A,mmlu,gold=A,71.25
+llama8b,AlpaGasus,group,arabicmmlu,Humanities,55.02
+llama8b,AlpaGasus,group,arabicmmlu,Language,56.01
+llama8b,AlpaGasus,group,arabicmmlu,Other,59.3
+llama8b,AlpaGasus,group,arabicmmlu,STEM,50.23
+llama8b,AlpaGasus,group,arabicmmlu,Social Science,52.71
+llama8b,AlpaGasus,task,arabicmmlu,Accounting (University),48.65
+llama8b,AlpaGasus,task,arabicmmlu,Arabic Language (General),59.97
+llama8b,AlpaGasus,task,arabicmmlu,Arabic Language (Grammar),61.37
+llama8b,AlpaGasus,task,arabicmmlu,Arabic Language (High School),38.46
+llama8b,AlpaGasus,task,arabicmmlu,Arabic Language (Middle School),70.37
+llama8b,AlpaGasus,task,arabicmmlu,Arabic Language (Primary School),64.29
+llama8b,AlpaGasus,task,arabicmmlu,Biology (High School),41.09
+llama8b,AlpaGasus,task,arabicmmlu,Civics (High School),41.38
+llama8b,AlpaGasus,task,arabicmmlu,Civics (Middle School),44.07
+llama8b,AlpaGasus,task,arabicmmlu,Computer Science (High School),49.43
+llama8b,AlpaGasus,task,arabicmmlu,Computer Science (Middle School),77.78
+llama8b,AlpaGasus,task,arabicmmlu,Computer Science (Primary School),63.68
+llama8b,AlpaGasus,task,arabicmmlu,Computer Science (University),62.5
+llama8b,AlpaGasus,task,arabicmmlu,Driving Test,64.41
+llama8b,AlpaGasus,task,arabicmmlu,Economics (High School),53.33
+llama8b,AlpaGasus,task,arabicmmlu,Economics (Middle School),71.26
+llama8b,AlpaGasus,task,arabicmmlu,Economics (University),52.55
+llama8b,AlpaGasus,task,arabicmmlu,General Knowledge,50.58
+llama8b,AlpaGasus,task,arabicmmlu,General Knowledge (Middle School),63.37
+llama8b,AlpaGasus,task,arabicmmlu,General Knowledge (Primary School),64.81
+llama8b,AlpaGasus,task,arabicmmlu,Geography (High School),45.09
+llama8b,AlpaGasus,task,arabicmmlu,Geography (Middle School),55.88
+llama8b,AlpaGasus,task,arabicmmlu,Geography (Primary School),57.89
+llama8b,AlpaGasus,task,arabicmmlu,History (High School),41.58
+llama8b,AlpaGasus,task,arabicmmlu,History (Middle School),56.16
+llama8b,AlpaGasus,task,arabicmmlu,History (Primary School),55.88
+llama8b,AlpaGasus,task,arabicmmlu,Islamic Studies,39.44
+llama8b,AlpaGasus,task,arabicmmlu,Islamic Studies (High School),61.68
+llama8b,AlpaGasus,task,arabicmmlu,Islamic Studies (Middle School),63.87
+llama8b,AlpaGasus,task,arabicmmlu,Islamic Studies (Primary School),68.47
+llama8b,AlpaGasus,task,arabicmmlu,Law (Professional),62.74
+llama8b,AlpaGasus,task,arabicmmlu,Management (University),56.0
+llama8b,AlpaGasus,task,arabicmmlu,Math (Primary School),55.75
+llama8b,AlpaGasus,task,arabicmmlu,Natural Science (Middle School),63.22
+llama8b,AlpaGasus,task,arabicmmlu,Natural Science (Primary School),68.75
+llama8b,AlpaGasus,task,arabicmmlu,Philosophy (High School),46.15
+llama8b,AlpaGasus,task,arabicmmlu,Physics (High School),40.0
+llama8b,AlpaGasus,task,arabicmmlu,Political Science (University),49.52
+llama8b,AlpaGasus,task,arabicmmlu,Social Science (Middle School),50.62
+llama8b,AlpaGasus,task,arabicmmlu,Social Science (Primary School),66.1
+llama8b,AlpaGasus,gold_is_A,arabicmmlu,gold!=A,44.75
+llama8b,AlpaGasus,gold_is_A,arabicmmlu,gold=A,75.21
+llama8b,AlpaGasus,gold_is_A,mmlu,gold!=A,62.31
+llama8b,AlpaGasus,gold_is_A,mmlu,gold=A,69.96
+mistral,baseline,group,arabicmmlu,Humanities,42.2
+mistral,baseline,group,arabicmmlu,Language,41.37
+mistral,baseline,group,arabicmmlu,Other,45.05
+mistral,baseline,group,arabicmmlu,STEM,37.61
+mistral,baseline,group,arabicmmlu,Social Science,42.24
+mistral,baseline,task,arabicmmlu,Accounting (University),29.73
+mistral,baseline,task,arabicmmlu,Arabic Language (General),44.44
+mistral,baseline,task,arabicmmlu,Arabic Language (Grammar),45.48
+mistral,baseline,task,arabicmmlu,Arabic Language (High School),28.21
+mistral,baseline,task,arabicmmlu,Arabic Language (Middle School),40.74
+mistral,baseline,task,arabicmmlu,Arabic Language (Primary School),48.41
+mistral,baseline,task,arabicmmlu,Biology (High School),32.01
+mistral,baseline,task,arabicmmlu,Civics (High School),33.33
+mistral,baseline,task,arabicmmlu,Civics (Middle School),34.32
+mistral,baseline,task,arabicmmlu,Computer Science (High School),41.0
+mistral,baseline,task,arabicmmlu,Computer Science (Middle School),70.37
+mistral,baseline,task,arabicmmlu,Computer Science (Primary School),56.84
+mistral,baseline,task,arabicmmlu,Computer Science (University),54.69
+mistral,baseline,task,arabicmmlu,Driving Test,51.94
+mistral,baseline,task,arabicmmlu,Economics (High School),36.67
+mistral,baseline,task,arabicmmlu,Economics (Middle School),62.07
+mistral,baseline,task,arabicmmlu,Economics (University),43.8
+mistral,baseline,task,arabicmmlu,General Knowledge,32.75
+mistral,baseline,task,arabicmmlu,General Knowledge (Middle School),48.84
+mistral,baseline,task,arabicmmlu,General Knowledge (Primary School),52.47
+mistral,baseline,task,arabicmmlu,Geography (High School),37.76
+mistral,baseline,task,arabicmmlu,Geography (Middle School),40.44
+mistral,baseline,task,arabicmmlu,Geography (Primary School),38.6
+mistral,baseline,task,arabicmmlu,History (High School),33.03
+mistral,baseline,task,arabicmmlu,History (Middle School),34.98
+mistral,baseline,task,arabicmmlu,History (Primary School),41.18
+mistral,baseline,task,arabicmmlu,Islamic Studies,33.02
+mistral,baseline,task,arabicmmlu,Islamic Studies (High School),45.21
+mistral,baseline,task,arabicmmlu,Islamic Studies (Middle School),41.18
+mistral,baseline,task,arabicmmlu,Islamic Studies (Primary School),60.26
+mistral,baseline,task,arabicmmlu,Law (Professional),29.62
+mistral,baseline,task,arabicmmlu,Management (University),50.67
+mistral,baseline,task,arabicmmlu,Math (Primary School),39.85
+mistral,baseline,task,arabicmmlu,Natural Science (Middle School),38.43
+mistral,baseline,task,arabicmmlu,Natural Science (Primary School),48.21
+mistral,baseline,task,arabicmmlu,Philosophy (High School),30.77
+mistral,baseline,task,arabicmmlu,Physics (High School),24.71
+mistral,baseline,task,arabicmmlu,Political Science (University),40.95
+mistral,baseline,task,arabicmmlu,Social Science (Middle School),35.68
+mistral,baseline,task,arabicmmlu,Social Science (Primary School),57.59
+mistral,baseline,gold_is_A,arabicmmlu,gold!=A,28.49
+mistral,baseline,gold_is_A,arabicmmlu,gold=A,70.48
+mistral,baseline,gold_is_A,mmlu,gold!=A,51.29
+mistral,baseline,gold_is_A,mmlu,gold=A,70.73
+mistral,CIDAR,group,arabicmmlu,Humanities,39.0
+mistral,CIDAR,group,arabicmmlu,Language,29.34
+mistral,CIDAR,group,arabicmmlu,Other,42.43
+mistral,CIDAR,group,arabicmmlu,STEM,35.09
+mistral,CIDAR,group,arabicmmlu,Social Science,36.09
+mistral,CIDAR,task,arabicmmlu,Accounting (University),33.33
+mistral,CIDAR,task,arabicmmlu,Arabic Language (General),26.25
+mistral,CIDAR,task,arabicmmlu,Arabic Language (Grammar),33.88
+mistral,CIDAR,task,arabicmmlu,Arabic Language (High School),22.82
+mistral,CIDAR,task,arabicmmlu,Arabic Language (Middle School),23.46
+mistral,CIDAR,task,arabicmmlu,Arabic Language (Primary School),41.01
+mistral,CIDAR,task,arabicmmlu,Biology (High School),29.0
+mistral,CIDAR,task,arabicmmlu,Civics (High School),37.93
+mistral,CIDAR,task,arabicmmlu,Civics (Middle School),25.0
+mistral,CIDAR,task,arabicmmlu,Computer Science (High School),35.63
+mistral,CIDAR,task,arabicmmlu,Computer Science (Middle School),59.26
+mistral,CIDAR,task,arabicmmlu,Computer Science (Primary School),56.32
+mistral,CIDAR,task,arabicmmlu,Computer Science (University),46.88
+mistral,CIDAR,task,arabicmmlu,Driving Test,50.65
+mistral,CIDAR,task,arabicmmlu,Economics (High School),29.63
+mistral,CIDAR,task,arabicmmlu,Economics (Middle School),50.96
+mistral,CIDAR,task,arabicmmlu,Economics (University),35.77
+mistral,CIDAR,task,arabicmmlu,General Knowledge,31.67
+mistral,CIDAR,task,arabicmmlu,General Knowledge (Middle School),38.76
+mistral,CIDAR,task,arabicmmlu,General Knowledge (Primary School),41.77
+mistral,CIDAR,task,arabicmmlu,Geography (High School),33.04
+mistral,CIDAR,task,arabicmmlu,Geography (Middle School),34.19
+mistral,CIDAR,task,arabicmmlu,Geography (Primary School),30.99
+mistral,CIDAR,task,arabicmmlu,History (High School),32.5
+mistral,CIDAR,task,arabicmmlu,History (Middle School),30.21
+mistral,CIDAR,task,arabicmmlu,History (Primary School),31.7
+mistral,CIDAR,task,arabicmmlu,Islamic Studies,30.62
+mistral,CIDAR,task,arabicmmlu,Islamic Studies (High School),40.12
+mistral,CIDAR,task,arabicmmlu,Islamic Studies (Middle School),36.27
+mistral,CIDAR,task,arabicmmlu,Islamic Studies (Primary School),48.38
+mistral,CIDAR,task,arabicmmlu,Law (Professional),52.12
+mistral,CIDAR,task,arabicmmlu,Management (University),43.56
+mistral,CIDAR,task,arabicmmlu,Math (Primary School),41.16
+mistral,CIDAR,task,arabicmmlu,Natural Science (Middle School),34.99
+mistral,CIDAR,task,arabicmmlu,Natural Science (Primary School),42.26
+mistral,CIDAR,task,arabicmmlu,Philosophy (High School),29.06
+mistral,CIDAR,task,arabicmmlu,Physics (High School),27.71
+mistral,CIDAR,task,arabicmmlu,Political Science (University),37.94
+mistral,CIDAR,task,arabicmmlu,Social Science (Middle School),28.35
+mistral,CIDAR,task,arabicmmlu,Social Science (Primary School),49.13
+mistral,CIDAR,gold_is_A,arabicmmlu,gold!=A,13.41
+mistral,CIDAR,gold_is_A,arabicmmlu,gold=A,88.79
+mistral,CIDAR,gold_is_A,mmlu,gold!=A,42.5
+mistral,CIDAR,gold_is_A,mmlu,gold=A,79.12
+mistral,AlpaGasus,group,arabicmmlu,Humanities,44.18
+mistral,AlpaGasus,group,arabicmmlu,Language,40.7
+mistral,AlpaGasus,group,arabicmmlu,Other,43.64
+mistral,AlpaGasus,group,arabicmmlu,STEM,39.56
+mistral,AlpaGasus,group,arabicmmlu,Social Science,39.13
+mistral,AlpaGasus,task,arabicmmlu,Accounting (University),40.54
+mistral,AlpaGasus,task,arabicmmlu,Arabic Language (General),47.55
+mistral,AlpaGasus,task,arabicmmlu,Arabic Language (Grammar),34.25
+mistral,AlpaGasus,task,arabicmmlu,Arabic Language (High School),32.05
+mistral,AlpaGasus,task,arabicmmlu,Arabic Language (Middle School),37.04
+mistral,AlpaGasus,task,arabicmmlu,Arabic Language (Primary School),47.22
+mistral,AlpaGasus,task,arabicmmlu,Biology (High School),34.92
+mistral,AlpaGasus,task,arabicmmlu,Civics (High School),39.08
+mistral,AlpaGasus,task,arabicmmlu,Civics (Middle School),36.02
+mistral,AlpaGasus,task,arabicmmlu,Computer Science (High School),41.38
+mistral,AlpaGasus,task,arabicmmlu,Computer Science (Middle School),66.67
+mistral,AlpaGasus,task,arabicmmlu,Computer Science (Primary School),61.58
+mistral,AlpaGasus,task,arabicmmlu,Computer Science (University),53.12
+mistral,AlpaGasus,task,arabicmmlu,Driving Test,49.88
+mistral,AlpaGasus,task,arabicmmlu,Economics (High School),32.22
+mistral,AlpaGasus,task,arabicmmlu,Economics (Middle School),50.57
+mistral,AlpaGasus,task,arabicmmlu,Economics (University),44.53
+mistral,AlpaGasus,task,arabicmmlu,General Knowledge,33.68
+mistral,AlpaGasus,task,arabicmmlu,General Knowledge (Middle School),44.19
+mistral,AlpaGasus,task,arabicmmlu,General Knowledge (Primary School),51.23
+mistral,AlpaGasus,task,arabicmmlu,Geography (High School),32.27
+mistral,AlpaGasus,task,arabicmmlu,Geography (Middle School),40.81
+mistral,AlpaGasus,task,arabicmmlu,Geography (Primary School),45.61
+mistral,AlpaGasus,task,arabicmmlu,History (High School),28.82
+mistral,AlpaGasus,task,arabicmmlu,History (Middle School),41.38
+mistral,AlpaGasus,task,arabicmmlu,History (Primary School),31.37
+mistral,AlpaGasus,task,arabicmmlu,Islamic Studies,34.12
+mistral,AlpaGasus,task,arabicmmlu,Islamic Studies (High School),46.71
+mistral,AlpaGasus,task,arabicmmlu,Islamic Studies (Middle School),39.92
+mistral,AlpaGasus,task,arabicmmlu,Islamic Studies (Primary School),58.36
+mistral,AlpaGasus,task,arabicmmlu,Law (Professional),64.01
+mistral,AlpaGasus,task,arabicmmlu,Management (University),40.0
+mistral,AlpaGasus,task,arabicmmlu,Math (Primary School),40.83
+mistral,AlpaGasus,task,arabicmmlu,Natural Science (Middle School),39.67
+mistral,AlpaGasus,task,arabicmmlu,Natural Science (Primary School),49.11
+mistral,AlpaGasus,task,arabicmmlu,Philosophy (High School),38.46
+mistral,AlpaGasus,task,arabicmmlu,Physics (High School),25.88
+mistral,AlpaGasus,task,arabicmmlu,Political Science (University),35.24
+mistral,AlpaGasus,task,arabicmmlu,Social Science (Middle School),36.1
+mistral,AlpaGasus,task,arabicmmlu,Social Science (Primary School),52.2
+mistral,AlpaGasus,gold_is_A,arabicmmlu,gold!=A,31.02
+mistral,AlpaGasus,gold_is_A,arabicmmlu,gold=A,64.45
+mistral,AlpaGasus,gold_is_A,mmlu,gold!=A,47.06
+mistral,AlpaGasus,gold_is_A,mmlu,gold=A,72.28
+gemma2,baseline,group,arabicmmlu,Humanities,59.56
+gemma2,baseline,group,arabicmmlu,Language,64.7
+gemma2,baseline,group,arabicmmlu,Other,66.59
+gemma2,baseline,group,arabicmmlu,STEM,60.35
+gemma2,baseline,group,arabicmmlu,Social Science,62.1
+gemma2,baseline,task,arabicmmlu,Accounting (University),59.46
+gemma2,baseline,task,arabicmmlu,Arabic Language (General),75.16
+gemma2,baseline,task,arabicmmlu,Arabic Language (Grammar),70.96
+gemma2,baseline,task,arabicmmlu,Arabic Language (High School),39.23
+gemma2,baseline,task,arabicmmlu,Arabic Language (Middle School),55.56
+gemma2,baseline,task,arabicmmlu,Arabic Language (Primary School),70.63
+gemma2,baseline,task,arabicmmlu,Biology (High School),50.39
+gemma2,baseline,task,arabicmmlu,Civics (High School),41.38
+gemma2,baseline,task,arabicmmlu,Civics (Middle School),59.75
+gemma2,baseline,task,arabicmmlu,Computer Science (High School),59.77
+gemma2,baseline,task,arabicmmlu,Computer Science (Middle School),81.48
+gemma2,baseline,task,arabicmmlu,Computer Science (Primary School),76.84
+gemma2,baseline,task,arabicmmlu,Computer Science (University),67.19
+gemma2,baseline,task,arabicmmlu,Driving Test,70.69
+gemma2,baseline,task,arabicmmlu,Economics (High School),62.78
+gemma2,baseline,task,arabicmmlu,Economics (Middle School),77.01
+gemma2,baseline,task,arabicmmlu,Economics (University),56.2
+gemma2,baseline,task,arabicmmlu,General Knowledge,58.68
+gemma2,baseline,task,arabicmmlu,General Knowledge (Middle School),71.51
+gemma2,baseline,task,arabicmmlu,General Knowledge (Primary School),71.6
+gemma2,baseline,task,arabicmmlu,Geography (High School),54.24
+gemma2,baseline,task,arabicmmlu,Geography (Middle School),71.69
+gemma2,baseline,task,arabicmmlu,Geography (Primary School),61.4
+gemma2,baseline,task,arabicmmlu,History (High School),45.53
+gemma2,baseline,task,arabicmmlu,History (Middle School),64.04
+gemma2,baseline,task,arabicmmlu,History (Primary School),57.84
+gemma2,baseline,task,arabicmmlu,Islamic Studies,45.07
+gemma2,baseline,task,arabicmmlu,Islamic Studies (High School),67.37
+gemma2,baseline,task,arabicmmlu,Islamic Studies (Middle School),64.29
+gemma2,baseline,task,arabicmmlu,Islamic Studies (Primary School),77.78
+gemma2,baseline,task,arabicmmlu,Law (Professional),50.32
+gemma2,baseline,task,arabicmmlu,Management (University),69.33
+gemma2,baseline,task,arabicmmlu,Math (Primary School),61.12
+gemma2,baseline,task,arabicmmlu,Natural Science (Middle School),76.03
+gemma2,baseline,task,arabicmmlu,Natural Science (Primary School),85.71
+gemma2,baseline,task,arabicmmlu,Philosophy (High School),64.1
+gemma2,baseline,task,arabicmmlu,Physics (High School),50.2
+gemma2,baseline,task,arabicmmlu,Political Science (University),59.52
+gemma2,baseline,task,arabicmmlu,Social Science (Middle School),53.11
+gemma2,baseline,task,arabicmmlu,Social Science (Primary School),76.45
+gemma2,baseline,gold_is_A,arabicmmlu,gold!=A,59.31
+gemma2,baseline,gold_is_A,arabicmmlu,gold=A,68.4
+gemma2,baseline,gold_is_A,mmlu,gold!=A,72.59
+gemma2,baseline,gold_is_A,mmlu,gold=A,68.0
+gemma2,CIDAR,group,arabicmmlu,Humanities,58.77
+gemma2,CIDAR,group,arabicmmlu,Language,62.47
+gemma2,CIDAR,group,arabicmmlu,Other,65.94
+gemma2,CIDAR,group,arabicmmlu,STEM,58.54
+gemma2,CIDAR,group,arabicmmlu,Social Science,59.66
+gemma2,CIDAR,task,arabicmmlu,Accounting (University),59.46
+gemma2,CIDAR,task,arabicmmlu,Arabic Language (General),70.53
+gemma2,CIDAR,task,arabicmmlu,Arabic Language (Grammar),69.5
+gemma2,CIDAR,task,arabicmmlu,Arabic Language (High School),38.29
+gemma2,CIDAR,task,arabicmmlu,Arabic Language (Middle School),56.79
+gemma2,CIDAR,task,arabicmmlu,Arabic Language (Primary School),70.77
+gemma2,CIDAR,task,arabicmmlu,Biology (High School),47.6
+gemma2,CIDAR,task,arabicmmlu,Civics (High School),47.13
+gemma2,CIDAR,task,arabicmmlu,Civics (Middle School),50.85
+gemma2,CIDAR,task,arabicmmlu,Computer Science (High School),59.0
+gemma2,CIDAR,task,arabicmmlu,Computer Science (Middle School),81.48
+gemma2,CIDAR,task,arabicmmlu,Computer Science (Primary School),74.21
+gemma2,CIDAR,task,arabicmmlu,Computer Science (University),67.71
+gemma2,CIDAR,task,arabicmmlu,Driving Test,70.99
+gemma2,CIDAR,task,arabicmmlu,Economics (High School),60.28
+gemma2,CIDAR,task,arabicmmlu,Economics (Middle School),77.78
+gemma2,CIDAR,task,arabicmmlu,Economics (University),54.99
+gemma2,CIDAR,task,arabicmmlu,General Knowledge,57.25
+gemma2,CIDAR,task,arabicmmlu,General Knowledge (Middle School),71.12
+gemma2,CIDAR,task,arabicmmlu,General Knowledge (Primary School),69.14
+gemma2,CIDAR,task,arabicmmlu,Geography (High School),52.76
+gemma2,CIDAR,task,arabicmmlu,Geography (Middle School),65.56
+gemma2,CIDAR,task,arabicmmlu,Geography (Primary School),61.99
+gemma2,CIDAR,task,arabicmmlu,History (High School),43.82
+gemma2,CIDAR,task,arabicmmlu,History (Middle School),61.41
+gemma2,CIDAR,task,arabicmmlu,History (Primary School),56.21
+gemma2,CIDAR,task,arabicmmlu,Islamic Studies,46.74
+gemma2,CIDAR,task,arabicmmlu,Islamic Studies (High School),62.48
+gemma2,CIDAR,task,arabicmmlu,Islamic Studies (Middle School),61.9
+gemma2,CIDAR,task,arabicmmlu,Islamic Studies (Primary School),75.01
+gemma2,CIDAR,task,arabicmmlu,Law (Professional),60.62
+gemma2,CIDAR,task,arabicmmlu,Management (University),65.78
+gemma2,CIDAR,task,arabicmmlu,Math (Primary School),63.0
+gemma2,CIDAR,task,arabicmmlu,Natural Science (Middle School),75.07
+gemma2,CIDAR,task,arabicmmlu,Natural Science (Primary School),82.64
+gemma2,CIDAR,task,arabicmmlu,Philosophy (High School),58.97
+gemma2,CIDAR,task,arabicmmlu,Physics (High School),47.58
+gemma2,CIDAR,task,arabicmmlu,Political Science (University),56.19
+gemma2,CIDAR,task,arabicmmlu,Social Science (Middle School),53.25
+gemma2,CIDAR,task,arabicmmlu,Social Science (Primary School),73.43
+gemma2,CIDAR,gold_is_A,arabicmmlu,gold!=A,52.82
+gemma2,CIDAR,gold_is_A,arabicmmlu,gold=A,77.74
+gemma2,CIDAR,gold_is_A,mmlu,gold!=A,72.14
+gemma2,CIDAR,gold_is_A,mmlu,gold=A,67.79
+gemma2,AlpaGasus,group,arabicmmlu,Humanities,58.19
+gemma2,AlpaGasus,group,arabicmmlu,Language,61.3
+gemma2,AlpaGasus,group,arabicmmlu,Other,64.45
+gemma2,AlpaGasus,group,arabicmmlu,STEM,57.03
+gemma2,AlpaGasus,group,arabicmmlu,Social Science,58.56
+gemma2,AlpaGasus,task,arabicmmlu,Accounting (University),63.51
+gemma2,AlpaGasus,task,arabicmmlu,Arabic Language (General),69.12
+gemma2,AlpaGasus,task,arabicmmlu,Arabic Language (Grammar),67.67
+gemma2,AlpaGasus,task,arabicmmlu,Arabic Language (High School),39.23
+gemma2,AlpaGasus,task,arabicmmlu,Arabic Language (Middle School),55.56
+gemma2,AlpaGasus,task,arabicmmlu,Arabic Language (Primary School),67.86
+gemma2,AlpaGasus,task,arabicmmlu,Biology (High School),45.78
+gemma2,AlpaGasus,task,arabicmmlu,Civics (High School),40.23
+gemma2,AlpaGasus,task,arabicmmlu,Civics (Middle School),55.51
+gemma2,AlpaGasus,task,arabicmmlu,Computer Science (High School),59.0
+gemma2,AlpaGasus,task,arabicmmlu,Computer Science (Middle School),81.48
+gemma2,AlpaGasus,task,arabicmmlu,Computer Science (Primary School),72.11
+gemma2,AlpaGasus,task,arabicmmlu,Computer Science (University),65.62
+gemma2,AlpaGasus,task,arabicmmlu,Driving Test,70.02
+gemma2,AlpaGasus,task,arabicmmlu,Economics (High School),58.89
+gemma2,AlpaGasus,task,arabicmmlu,Economics (Middle School),74.71
+gemma2,AlpaGasus,task,arabicmmlu,Economics (University),56.93
+gemma2,AlpaGasus,task,arabicmmlu,General Knowledge,55.09
+gemma2,AlpaGasus,task,arabicmmlu,General Knowledge (Middle School),69.19
+gemma2,AlpaGasus,task,arabicmmlu,General Knowledge (Primary School),66.05
+gemma2,AlpaGasus,task,arabicmmlu,Geography (High School),49.9
+gemma2,AlpaGasus,task,arabicmmlu,Geography (Middle School),65.44
+gemma2,AlpaGasus,task,arabicmmlu,Geography (Primary School),61.4
+gemma2,AlpaGasus,task,arabicmmlu,History (High School),44.34
+gemma2,AlpaGasus,task,arabicmmlu,History (Middle School),60.59
+gemma2,AlpaGasus,task,arabicmmlu,History (Primary School),52.94
+gemma2,AlpaGasus,task,arabicmmlu,Islamic Studies,44.6
+gemma2,AlpaGasus,task,arabicmmlu,Islamic Studies (High School),62.28
+gemma2,AlpaGasus,task,arabicmmlu,Islamic Studies (Middle School),61.76
+gemma2,AlpaGasus,task,arabicmmlu,Islamic Studies (Primary School),74.77
+gemma2,AlpaGasus,task,arabicmmlu,Law (Professional),59.24
+gemma2,AlpaGasus,task,arabicmmlu,Management (University),68.0
+gemma2,AlpaGasus,task,arabicmmlu,Math (Primary School),60.88
+gemma2,AlpaGasus,task,arabicmmlu,Natural Science (Middle School),71.9
+gemma2,AlpaGasus,task,arabicmmlu,Natural Science (Primary School),81.85
+gemma2,AlpaGasus,task,arabicmmlu,Philosophy (High School),61.54
+gemma2,AlpaGasus,task,arabicmmlu,Physics (High School),48.24
+gemma2,AlpaGasus,task,arabicmmlu,Political Science (University),54.76
+gemma2,AlpaGasus,task,arabicmmlu,Social Science (Middle School),52.28
+gemma2,AlpaGasus,task,arabicmmlu,Social Science (Primary School),72.62
+gemma2,AlpaGasus,gold_is_A,arabicmmlu,gold!=A,53.3
+gemma2,AlpaGasus,gold_is_A,arabicmmlu,gold=A,73.03
+gemma2,AlpaGasus,gold_is_A,mmlu,gold!=A,69.52
+gemma2,AlpaGasus,gold_is_A,mmlu,gold=A,65.33
+qwen7b,baseline,group,arabicmmlu,Humanities,60.69
+qwen7b,baseline,group,arabicmmlu,Language,63.06
+qwen7b,baseline,group,arabicmmlu,Other,66.63
+qwen7b,baseline,group,arabicmmlu,STEM,60.51
+qwen7b,baseline,group,arabicmmlu,Social Science,61.22
+qwen7b,baseline,task,arabicmmlu,Accounting (University),63.51
+qwen7b,baseline,task,arabicmmlu,Arabic Language (General),72.22
+qwen7b,baseline,task,arabicmmlu,Arabic Language (Grammar),70.96
+qwen7b,baseline,task,arabicmmlu,Arabic Language (High School),38.46
+qwen7b,baseline,task,arabicmmlu,Arabic Language (Middle School),62.96
+qwen7b,baseline,task,arabicmmlu,Arabic Language (Primary School),67.46
+qwen7b,baseline,task,arabicmmlu,Biology (High School),48.12
+qwen7b,baseline,task,arabicmmlu,Civics (High School),45.98
+qwen7b,baseline,task,arabicmmlu,Civics (Middle School),52.54
+qwen7b,baseline,task,arabicmmlu,Computer Science (High School),67.05
+qwen7b,baseline,task,arabicmmlu,Computer Science (Middle School),85.19
+qwen7b,baseline,task,arabicmmlu,Computer Science (Primary School),73.16
+qwen7b,baseline,task,arabicmmlu,Computer Science (University),76.56
+qwen7b,baseline,task,arabicmmlu,Driving Test,70.85
+qwen7b,baseline,task,arabicmmlu,Economics (High School),64.72
+qwen7b,baseline,task,arabicmmlu,Economics (Middle School),77.01
+qwen7b,baseline,task,arabicmmlu,Economics (University),59.12
+qwen7b,baseline,task,arabicmmlu,General Knowledge,57.18
+qwen7b,baseline,task,arabicmmlu,General Knowledge (Middle School),75.0
+qwen7b,baseline,task,arabicmmlu,General Knowledge (Primary School),72.84
+qwen7b,baseline,task,arabicmmlu,Geography (High School),53.08
+qwen7b,baseline,task,arabicmmlu,Geography (Middle School),67.65
+qwen7b,baseline,task,arabicmmlu,Geography (Primary School),66.67
+qwen7b,baseline,task,arabicmmlu,History (High School),46.58
+qwen7b,baseline,task,arabicmmlu,History (Middle School),62.56
+qwen7b,baseline,task,arabicmmlu,History (Primary School),60.78
+qwen7b,baseline,task,arabicmmlu,Islamic Studies,42.72
+qwen7b,baseline,task,arabicmmlu,Islamic Studies (High School),66.77
+qwen7b,baseline,task,arabicmmlu,Islamic Studies (Middle School),65.97
+qwen7b,baseline,task,arabicmmlu,Islamic Studies (Primary School),75.68
+qwen7b,baseline,task,arabicmmlu,Law (Professional),71.66
+qwen7b,baseline,task,arabicmmlu,Management (University),74.67
+qwen7b,baseline,task,arabicmmlu,Math (Primary School),71.88
+qwen7b,baseline,task,arabicmmlu,Natural Science (Middle School),74.38
+qwen7b,baseline,task,arabicmmlu,Natural Science (Primary School),82.74
+qwen7b,baseline,task,arabicmmlu,Philosophy (High School),64.1
+qwen7b,baseline,task,arabicmmlu,Physics (High School),45.49
+qwen7b,baseline,task,arabicmmlu,Political Science (University),62.38
+qwen7b,baseline,task,arabicmmlu,Social Science (Middle School),51.87
+qwen7b,baseline,task,arabicmmlu,Social Science (Primary School),74.33
+qwen7b,baseline,gold_is_A,arabicmmlu,gold!=A,60.31
+qwen7b,baseline,gold_is_A,arabicmmlu,gold=A,65.96
+qwen7b,baseline,gold_is_A,mmlu,gold!=A,70.86
+qwen7b,baseline,gold_is_A,mmlu,gold=A,69.77
+qwen7b,CIDAR,group,arabicmmlu,Humanities,60.15
+qwen7b,CIDAR,group,arabicmmlu,Language,60.55
+qwen7b,CIDAR,group,arabicmmlu,Other,66.04
+qwen7b,CIDAR,group,arabicmmlu,STEM,59.85
+qwen7b,CIDAR,group,arabicmmlu,Social Science,60.08
+qwen7b,CIDAR,task,arabicmmlu,Accounting (University),68.02
+qwen7b,CIDAR,task,arabicmmlu,Arabic Language (General),70.81
+qwen7b,CIDAR,task,arabicmmlu,Arabic Language (Grammar),65.75
+qwen7b,CIDAR,task,arabicmmlu,Arabic Language (High School),38.21
+qwen7b,CIDAR,task,arabicmmlu,Arabic Language (Middle School),64.2
+qwen7b,CIDAR,task,arabicmmlu,Arabic Language (Primary School),62.3
+qwen7b,CIDAR,task,arabicmmlu,Biology (High School),47.29
+qwen7b,CIDAR,task,arabicmmlu,Civics (High School),42.53
+qwen7b,CIDAR,task,arabicmmlu,Civics (Middle School),49.29
+qwen7b,CIDAR,task,arabicmmlu,Computer Science (High School),63.86
+qwen7b,CIDAR,task,arabicmmlu,Computer Science (Middle School),91.36
+qwen7b,CIDAR,task,arabicmmlu,Computer Science (Primary School),75.44
+qwen7b,CIDAR,task,arabicmmlu,Computer Science (University),74.48
+qwen7b,CIDAR,task,arabicmmlu,Driving Test,71.1
+qwen7b,CIDAR,task,arabicmmlu,Economics (High School),61.76
+qwen7b,CIDAR,task,arabicmmlu,Economics (Middle School),79.31
+qwen7b,CIDAR,task,arabicmmlu,Economics (University),56.93
+qwen7b,CIDAR,task,arabicmmlu,General Knowledge,56.98
+qwen7b,CIDAR,task,arabicmmlu,General Knowledge (Middle School),68.6
+qwen7b,CIDAR,task,arabicmmlu,General Knowledge (Primary School),69.55
+qwen7b,CIDAR,task,arabicmmlu,Geography (High School),52.83
+qwen7b,CIDAR,task,arabicmmlu,Geography (Middle School),65.81
+qwen7b,CIDAR,task,arabicmmlu,Geography (Primary School),69.59
+qwen7b,CIDAR,task,arabicmmlu,History (High School),45.61
+qwen7b,CIDAR,task,arabicmmlu,History (Middle School),63.38
+qwen7b,CIDAR,task,arabicmmlu,History (Primary School),54.9
+qwen7b,CIDAR,task,arabicmmlu,Islamic Studies,43.04
+qwen7b,CIDAR,task,arabicmmlu,Islamic Studies (High School),65.67
+qwen7b,CIDAR,task,arabicmmlu,Islamic Studies (Middle School),64.43
+qwen7b,CIDAR,task,arabicmmlu,Islamic Studies (Primary School),75.08
+qwen7b,CIDAR,task,arabicmmlu,Law (Professional),72.4
+qwen7b,CIDAR,task,arabicmmlu,Management (University),75.11
+qwen7b,CIDAR,task,arabicmmlu,Math (Primary School),70.74
+qwen7b,CIDAR,task,arabicmmlu,Natural Science (Middle School),76.03
+qwen7b,CIDAR,task,arabicmmlu,Natural Science (Primary School),81.65
+qwen7b,CIDAR,task,arabicmmlu,Philosophy (High School),66.67
+qwen7b,CIDAR,task,arabicmmlu,Physics (High School),44.97
+qwen7b,CIDAR,task,arabicmmlu,Political Science (University),59.68
+qwen7b,CIDAR,task,arabicmmlu,Social Science (Middle School),51.45
+qwen7b,CIDAR,task,arabicmmlu,Social Science (Primary School),73.19
+qwen7b,CIDAR,gold_is_A,arabicmmlu,gold!=A,59.8
+qwen7b,CIDAR,gold_is_A,arabicmmlu,gold=A,64.06
+qwen7b,CIDAR,gold_is_A,mmlu,gold!=A,71.48
+qwen7b,CIDAR,gold_is_A,mmlu,gold=A,66.78
+qwen7b,AlpaGasus,group,arabicmmlu,Humanities,61.69
+qwen7b,AlpaGasus,group,arabicmmlu,Language,63.43
+qwen7b,AlpaGasus,group,arabicmmlu,Other,65.9
+qwen7b,AlpaGasus,group,arabicmmlu,STEM,60.48
+qwen7b,AlpaGasus,group,arabicmmlu,Social Science,61.16
+qwen7b,AlpaGasus,task,arabicmmlu,Accounting (University),70.27
+qwen7b,AlpaGasus,task,arabicmmlu,Arabic Language (General),74.18
+qwen7b,AlpaGasus,task,arabicmmlu,Arabic Language (Grammar),68.49
+qwen7b,AlpaGasus,task,arabicmmlu,Arabic Language (High School),40.0
+qwen7b,AlpaGasus,task,arabicmmlu,Arabic Language (Middle School),66.67
+qwen7b,AlpaGasus,task,arabicmmlu,Arabic Language (Primary School),65.87
+qwen7b,AlpaGasus,task,arabicmmlu,Biology (High School),47.2
+qwen7b,AlpaGasus,task,arabicmmlu,Civics (High School),44.83
+qwen7b,AlpaGasus,task,arabicmmlu,Civics (Middle School),52.97
+qwen7b,AlpaGasus,task,arabicmmlu,Computer Science (High School),66.67
+qwen7b,AlpaGasus,task,arabicmmlu,Computer Science (Middle School),96.3
+qwen7b,AlpaGasus,task,arabicmmlu,Computer Science (Primary School),75.26
+qwen7b,AlpaGasus,task,arabicmmlu,Computer Science (University),76.56
+qwen7b,AlpaGasus,task,arabicmmlu,Driving Test,70.77
+qwen7b,AlpaGasus,task,arabicmmlu,Economics (High School),63.06
+qwen7b,AlpaGasus,task,arabicmmlu,Economics (Middle School),78.16
+qwen7b,AlpaGasus,task,arabicmmlu,Economics (University),57.66
+qwen7b,AlpaGasus,task,arabicmmlu,General Knowledge,56.94
+qwen7b,AlpaGasus,task,arabicmmlu,General Knowledge (Middle School),69.19
+qwen7b,AlpaGasus,task,arabicmmlu,General Knowledge (Primary School),69.75
+qwen7b,AlpaGasus,task,arabicmmlu,Geography (High School),52.89
+qwen7b,AlpaGasus,task,arabicmmlu,Geography (Middle School),66.18
+qwen7b,AlpaGasus,task,arabicmmlu,Geography (Primary School),71.93
+qwen7b,AlpaGasus,task,arabicmmlu,History (High School),45.66
+qwen7b,AlpaGasus,task,arabicmmlu,History (Middle School),62.56
+qwen7b,AlpaGasus,task,arabicmmlu,History (Primary School),60.78
+qwen7b,AlpaGasus,task,arabicmmlu,Islamic Studies,44.44
+qwen7b,AlpaGasus,task,arabicmmlu,Islamic Studies (High School),66.77
+qwen7b,AlpaGasus,task,arabicmmlu,Islamic Studies (Middle School),64.71
+qwen7b,AlpaGasus,task,arabicmmlu,Islamic Studies (Primary School),77.58
+qwen7b,AlpaGasus,task,arabicmmlu,Law (Professional),76.43
+qwen7b,AlpaGasus,task,arabicmmlu,Management (University),74.67
+qwen7b,AlpaGasus,task,arabicmmlu,Math (Primary School),71.15
+qwen7b,AlpaGasus,task,arabicmmlu,Natural Science (Middle School),76.03
+qwen7b,AlpaGasus,task,arabicmmlu,Natural Science (Primary School),82.44
+qwen7b,AlpaGasus,task,arabicmmlu,Philosophy (High School),66.67
+qwen7b,AlpaGasus,task,arabicmmlu,Physics (High School),47.84
+qwen7b,AlpaGasus,task,arabicmmlu,Political Science (University),59.52
+qwen7b,AlpaGasus,task,arabicmmlu,Social Science (Middle School),50.62
+qwen7b,AlpaGasus,task,arabicmmlu,Social Science (Primary School),76.03
+qwen7b,AlpaGasus,gold_is_A,arabicmmlu,gold!=A,61.08
+qwen7b,AlpaGasus,gold_is_A,arabicmmlu,gold=A,64.72
+qwen7b,AlpaGasus,gold_is_A,mmlu,gold!=A,71.22
+qwen7b,AlpaGasus,gold_is_A,mmlu,gold=A,63.0
+qwen1.5b,baseline,group,arabicmmlu,Humanities,50.47
+qwen1.5b,baseline,group,arabicmmlu,Language,50.79
+qwen1.5b,baseline,group,arabicmmlu,Other,54.51
+qwen1.5b,baseline,group,arabicmmlu,STEM,47.57
+qwen1.5b,baseline,group,arabicmmlu,Social Science,49.29
+qwen1.5b,baseline,task,arabicmmlu,Accounting (University),44.59
+qwen1.5b,baseline,task,arabicmmlu,Arabic Language (General),61.93
+qwen1.5b,baseline,task,arabicmmlu,Arabic Language (Grammar),47.4
+qwen1.5b,baseline,task,arabicmmlu,Arabic Language (High School),35.64
+qwen1.5b,baseline,task,arabicmmlu,Arabic Language (Middle School),51.85
+qwen1.5b,baseline,task,arabicmmlu,Arabic Language (Primary School),51.98
+qwen1.5b,baseline,task,arabicmmlu,Biology (High School),39.25
+qwen1.5b,baseline,task,arabicmmlu,Civics (High School),40.23
+qwen1.5b,baseline,task,arabicmmlu,Civics (Middle School),45.76
+qwen1.5b,baseline,task,arabicmmlu,Computer Science (High School),55.56
+qwen1.5b,baseline,task,arabicmmlu,Computer Science (Middle School),70.37
+qwen1.5b,baseline,task,arabicmmlu,Computer Science (Primary School),60.0
+qwen1.5b,baseline,task,arabicmmlu,Computer Science (University),57.81
+qwen1.5b,baseline,task,arabicmmlu,Driving Test,59.21
+qwen1.5b,baseline,task,arabicmmlu,Economics (High School),53.06
+qwen1.5b,baseline,task,arabicmmlu,Economics (Middle School),72.41
+qwen1.5b,baseline,task,arabicmmlu,Economics (University),51.82
+qwen1.5b,baseline,task,arabicmmlu,General Knowledge,44.79
+qwen1.5b,baseline,task,arabicmmlu,General Knowledge (Middle School),61.63
+qwen1.5b,baseline,task,arabicmmlu,General Knowledge (Primary School),59.26
+qwen1.5b,baseline,task,arabicmmlu,Geography (High School),41.62
+qwen1.5b,baseline,task,arabicmmlu,Geography (Middle School),50.0
+qwen1.5b,baseline,task,arabicmmlu,Geography (Primary School),45.61
+qwen1.5b,baseline,task,arabicmmlu,History (High School),38.68
+qwen1.5b,baseline,task,arabicmmlu,History (Middle School),50.25
+qwen1.5b,baseline,task,arabicmmlu,History (Primary School),44.12
+qwen1.5b,baseline,task,arabicmmlu,Islamic Studies,31.3
+qwen1.5b,baseline,task,arabicmmlu,Islamic Studies (High School),56.29
+qwen1.5b,baseline,task,arabicmmlu,Islamic Studies (Middle School),57.14
+qwen1.5b,baseline,task,arabicmmlu,Islamic Studies (Primary School),65.57
+qwen1.5b,baseline,task,arabicmmlu,Law (Professional),61.46
+qwen1.5b,baseline,task,arabicmmlu,Management (University),64.0
+qwen1.5b,baseline,task,arabicmmlu,Math (Primary School),54.52
+qwen1.5b,baseline,task,arabicmmlu,Natural Science (Middle School),53.31
+qwen1.5b,baseline,task,arabicmmlu,Natural Science (Primary School),61.31
+qwen1.5b,baseline,task,arabicmmlu,Philosophy (High School),46.15
+qwen1.5b,baseline,task,arabicmmlu,Physics (High School),36.47
+qwen1.5b,baseline,task,arabicmmlu,Political Science (University),45.71
+qwen1.5b,baseline,task,arabicmmlu,Social Science (Middle School),42.74
+qwen1.5b,baseline,task,arabicmmlu,Social Science (Primary School),61.42
+qwen1.5b,baseline,gold_is_A,arabicmmlu,gold!=A,47.15
+qwen1.5b,baseline,gold_is_A,arabicmmlu,gold=A,57.15
+qwen1.5b,baseline,gold_is_A,mmlu,gold!=A,57.55
+qwen1.5b,baseline,gold_is_A,mmlu,gold=A,60.77
+qwen1.5b,CIDAR,group,arabicmmlu,Humanities,48.88
+qwen1.5b,CIDAR,group,arabicmmlu,Language,45.63
+qwen1.5b,CIDAR,group,arabicmmlu,Other,52.68
+qwen1.5b,CIDAR,group,arabicmmlu,STEM,46.52
+qwen1.5b,CIDAR,group,arabicmmlu,Social Science,47.73
+qwen1.5b,CIDAR,task,arabicmmlu,Accounting (University),42.34
+qwen1.5b,CIDAR,task,arabicmmlu,Arabic Language (General),55.5
+qwen1.5b,CIDAR,task,arabicmmlu,Arabic Language (Grammar),40.91
+qwen1.5b,CIDAR,task,arabicmmlu,Arabic Language (High School),33.42
+qwen1.5b,CIDAR,task,arabicmmlu,Arabic Language (Middle School),43.21
+qwen1.5b,CIDAR,task,arabicmmlu,Arabic Language (Primary School),47.62
+qwen1.5b,CIDAR,task,arabicmmlu,Biology (High School),39.22
+qwen1.5b,CIDAR,task,arabicmmlu,Civics (High School),37.93
+qwen1.5b,CIDAR,task,arabicmmlu,Civics (Middle School),46.75
+qwen1.5b,CIDAR,task,arabicmmlu,Computer Science (High School),52.62
+qwen1.5b,CIDAR,task,arabicmmlu,Computer Science (Middle School),71.6
+qwen1.5b,CIDAR,task,arabicmmlu,Computer Science (Primary School),62.81
+qwen1.5b,CIDAR,task,arabicmmlu,Computer Science (University),59.38
+qwen1.5b,CIDAR,task,arabicmmlu,Driving Test,59.18
+qwen1.5b,CIDAR,task,arabicmmlu,Economics (High School),51.94
+qwen1.5b,CIDAR,task,arabicmmlu,Economics (Middle School),68.58
+qwen1.5b,CIDAR,task,arabicmmlu,Economics (University),48.66
+qwen1.5b,CIDAR,task,arabicmmlu,General Knowledge,40.82
+qwen1.5b,CIDAR,task,arabicmmlu,General Knowledge (Middle School),62.21
+qwen1.5b,CIDAR,task,arabicmmlu,General Knowledge (Primary School),56.79
+qwen1.5b,CIDAR,task,arabicmmlu,Geography (High School),38.99
+qwen1.5b,CIDAR,task,arabicmmlu,Geography (Middle School),50.49
+qwen1.5b,CIDAR,task,arabicmmlu,Geography (Primary School),56.14
+qwen1.5b,CIDAR,task,arabicmmlu,History (High School),37.24
+qwen1.5b,CIDAR,task,arabicmmlu,History (Middle School),49.75
+qwen1.5b,CIDAR,task,arabicmmlu,History (Primary School),42.81
+qwen1.5b,CIDAR,task,arabicmmlu,Islamic Studies,29.16
+qwen1.5b,CIDAR,task,arabicmmlu,Islamic Studies (High School),54.69
+qwen1.5b,CIDAR,task,arabicmmlu,Islamic Studies (Middle School),55.88
+qwen1.5b,CIDAR,task,arabicmmlu,Islamic Studies (Primary School),62.13
+qwen1.5b,CIDAR,task,arabicmmlu,Law (Professional),65.82
+qwen1.5b,CIDAR,task,arabicmmlu,Management (University),53.78
+qwen1.5b,CIDAR,task,arabicmmlu,Math (Primary School),48.57
+qwen1.5b,CIDAR,task,arabicmmlu,Natural Science (Middle School),50.96
+qwen1.5b,CIDAR,task,arabicmmlu,Natural Science (Primary School),60.42
+qwen1.5b,CIDAR,task,arabicmmlu,Philosophy (High School),41.88
+qwen1.5b,CIDAR,task,arabicmmlu,Physics (High School),36.73
+qwen1.5b,CIDAR,task,arabicmmlu,Political Science (University),40.48
+qwen1.5b,CIDAR,task,arabicmmlu,Social Science (Middle School),43.57
+qwen1.5b,CIDAR,task,arabicmmlu,Social Science (Primary School),59.62
+qwen1.5b,CIDAR,gold_is_A,arabicmmlu,gold!=A,52.38
+qwen1.5b,CIDAR,gold_is_A,arabicmmlu,gold=A,39.51
+qwen1.5b,CIDAR,gold_is_A,mmlu,gold!=A,58.99
+qwen1.5b,CIDAR,gold_is_A,mmlu,gold=A,54.45
+qwen1.5b,AlpaGasus,group,arabicmmlu,Humanities,50.63
+qwen1.5b,AlpaGasus,group,arabicmmlu,Language,49.21
+qwen1.5b,AlpaGasus,group,arabicmmlu,Other,54.67
+qwen1.5b,AlpaGasus,group,arabicmmlu,STEM,46.07
+qwen1.5b,AlpaGasus,group,arabicmmlu,Social Science,48.43
+qwen1.5b,AlpaGasus,task,arabicmmlu,Accounting (University),47.3
+qwen1.5b,AlpaGasus,task,arabicmmlu,Arabic Language (General),57.35
+qwen1.5b,AlpaGasus,task,arabicmmlu,Arabic Language (Grammar),48.49
+qwen1.5b,AlpaGasus,task,arabicmmlu,Arabic Language (High School),35.38
+qwen1.5b,AlpaGasus,task,arabicmmlu,Arabic Language (Middle School),51.85
+qwen1.5b,AlpaGasus,task,arabicmmlu,Arabic Language (Primary School),51.59
+qwen1.5b,AlpaGasus,task,arabicmmlu,Biology (High School),38.54
+qwen1.5b,AlpaGasus,task,arabicmmlu,Civics (High School),36.78
+qwen1.5b,AlpaGasus,task,arabicmmlu,Civics (Middle School),42.37
+qwen1.5b,AlpaGasus,task,arabicmmlu,Computer Science (High School),51.34
+qwen1.5b,AlpaGasus,task,arabicmmlu,Computer Science (Middle School),66.67
+qwen1.5b,AlpaGasus,task,arabicmmlu,Computer Science (Primary School),61.58
+qwen1.5b,AlpaGasus,task,arabicmmlu,Computer Science (University),53.12
+qwen1.5b,AlpaGasus,task,arabicmmlu,Driving Test,61.19
+qwen1.5b,AlpaGasus,task,arabicmmlu,Economics (High School),52.22
+qwen1.5b,AlpaGasus,task,arabicmmlu,Economics (Middle School),72.41
+qwen1.5b,AlpaGasus,task,arabicmmlu,Economics (University),49.64
+qwen1.5b,AlpaGasus,task,arabicmmlu,General Knowledge,42.71
+qwen1.5b,AlpaGasus,task,arabicmmlu,General Knowledge (Middle School),61.63
+qwen1.5b,AlpaGasus,task,arabicmmlu,General Knowledge (Primary School),59.88
+qwen1.5b,AlpaGasus,task,arabicmmlu,Geography (High School),40.85
+qwen1.5b,AlpaGasus,task,arabicmmlu,Geography (Middle School),49.63
+qwen1.5b,AlpaGasus,task,arabicmmlu,Geography (Primary School),49.12
+qwen1.5b,AlpaGasus,task,arabicmmlu,History (High School),37.24
+qwen1.5b,AlpaGasus,task,arabicmmlu,History (Middle School),48.77
+qwen1.5b,AlpaGasus,task,arabicmmlu,History (Primary School),49.02
+qwen1.5b,AlpaGasus,task,arabicmmlu,Islamic Studies,33.96
+qwen1.5b,AlpaGasus,task,arabicmmlu,Islamic Studies (High School),57.19
+qwen1.5b,AlpaGasus,task,arabicmmlu,Islamic Studies (Middle School),55.46
+qwen1.5b,AlpaGasus,task,arabicmmlu,Islamic Studies (Primary School),64.86
+qwen1.5b,AlpaGasus,task,arabicmmlu,Law (Professional),63.38
+qwen1.5b,AlpaGasus,task,arabicmmlu,Management (University),60.0
+qwen1.5b,AlpaGasus,task,arabicmmlu,Math (Primary School),52.81
+qwen1.5b,AlpaGasus,task,arabicmmlu,Natural Science (Middle School),51.65
+qwen1.5b,AlpaGasus,task,arabicmmlu,Natural Science (Primary School),57.44
+qwen1.5b,AlpaGasus,task,arabicmmlu,Philosophy (High School),46.15
+qwen1.5b,AlpaGasus,task,arabicmmlu,Physics (High School),35.69
+qwen1.5b,AlpaGasus,task,arabicmmlu,Political Science (University),46.67
+qwen1.5b,AlpaGasus,task,arabicmmlu,Social Science (Middle School),43.98
+qwen1.5b,AlpaGasus,task,arabicmmlu,Social Science (Primary School),59.57
+qwen1.5b,AlpaGasus,gold_is_A,arabicmmlu,gold!=A,44.89
+qwen1.5b,AlpaGasus,gold_is_A,arabicmmlu,gold=A,60.06
+qwen1.5b,AlpaGasus,gold_is_A,mmlu,gold!=A,56.86
+qwen1.5b,AlpaGasus,gold_is_A,mmlu,gold=A,59.12

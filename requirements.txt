@@ -1,0 +1,12 @@
+# evaluation env (/l/users/$USER/envs/nlp)
+torch==2.10.0
+transformers==5.5.4
+vllm==0.19.1
+huggingface_hub==1.33.0
+pyarrow==26.0.0
+
+# fine-tuning env (/l/users/$USER/envs/mmcqa-train): torch==2.10.0+cu128, transformers==5.5.4, plus
+peft==0.21.2
+trl==1.16.0
+accelerate==1.15.0
+datasets==5.1.0

@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.env
+
+# Slurm logs (the folder itself is kept so sbatch can write to it)
+logs/*
+!logs/.gitkeep
+
+# model weights and adapters
+checkpoints/
+*.safetensors
+*.bin
+
+# per-question outputs are committed zipped (outputs/raw_outputs.zip) and unzipped on run
+outputs/**/*.jsonl
+*.zip
+!outputs/raw_outputs.zip

@@ -1,0 +1,6 @@
+model,vocab_size,arabicmmlu_tokens_per_word,mmlu_tokens_per_word,ar_en_ratio
+llama8b,128256,2.76,1.25,2.208
+mistral,32768,5.622,1.405,4.001
+gemma2,256000,2.715,1.26,2.155
+qwen7b,151665,3.092,1.276,2.423
+qwen1.5b,151665,3.092,1.276,2.423

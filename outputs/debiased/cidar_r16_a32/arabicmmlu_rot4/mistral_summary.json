@@ -1,0 +1,38 @@
+{
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "adapter": "/l/users/soumedhik.bharati/checkpoints/dllora/mistral_cidar_r16_a32",
+  "benchmark": "arabicmmlu",
+  "shots": 0,
+  "rotation": 4,
+  "questions": 340,
+  "accuracy": 0.3794,
+  "unparsed_rate": 0.2353,
+  "chance": 0.2,
+  "always_A": 0.4088,
+  "pred_counts": {
+    "A": 216,
+    "B": 12,
+    "C": 11,
+    "E": 21,
+    "None": 80
+  },
+  "accuracy_by_group": {
+    "Humanities": 0.7815,
+    "Language": 0.1636,
+    "Other": 0.0,
+    "STEM": 0.0,
+    "Social Science": 0.5
+  },
+  "accuracy_by_task": {
+    "Arabic Language (Grammar)": 0.1636,
+    "Biology (High School)": 0.0,
+    "Driving Test": 0.0,
+    "General Knowledge": 0.0,
+    "General Knowledge (Middle School)": 0.0,
+    "Geography (Middle School)": 0.5,
+    "Islamic Studies (High School)": 0.5882,
+    "Islamic Studies (Primary School)": 0.0,
+    "Law (Professional)": 0.8218,
+    "Math (Primary School)": 0.0
+  }
+}
