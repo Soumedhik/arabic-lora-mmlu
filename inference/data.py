@@ -42,4 +42,14 @@ def load_mmlu(split: str) -> list[dict]:
         for i, r in enumerate(pq.read_table(path).to_pylist())
     ]
 
+def load_exams_ar(split: str) -> list[dict]:
+    """Arabic EXAMS school-exam questions (OALL/Arabic_EXAMS, 4 options). Used only as a held-out test set."""
+    path = next((snapshot("OALL/Arabic_EXAMS") / "data").glob(f"{split}-*.parquet"))
+    return [
+        {"id": f"exams_{split}_{i:04d}", "task": r["subject"], "group": None, "question": r["question"].strip(),
+         "context": "", "options": [r[k].strip() for k in "ABCD"], "gold": r["answer"].strip()}
+        for i, r in enumerate(pq.read_table(path).to_pylist())
+    ]
+
 LOADERS = {"arabicmmlu": load_arabicmmlu, "mmlu": load_mmlu}
+EXTRA_LOADERS = {"exams_ar": load_exams_ar}  # evaluated only when asked for (logprob.py --benchmarks exams_ar)

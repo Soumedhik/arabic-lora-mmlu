@@ -3,9 +3,10 @@ LETTERS = "ABCDE"
 # Instruction in the question's language. Option letters are Latin (A-E) in both, so parsing is the same.
 TEMPLATES = {
     "arabicmmlu": "{context}السؤال: {question}\n{options}\n\nأجب بحرف الإجابة الصحيحة فقط ({letters}).",
+    "exams_ar": "{context}السؤال: {question}\n{options}\n\nأجب بحرف الإجابة الصحيحة فقط ({letters}).",
     "mmlu": "{context}Question: {question}\n{options}\n\nAnswer with the letter of the correct option only ({letters}).",
 }
-OR = {"arabicmmlu": " أو ", "mmlu": " or "}
+OR = {"arabicmmlu": " أو ", "exams_ar": " أو ", "mmlu": " or "}
 
 
 def user_message(bench: str, row: dict) -> str:
