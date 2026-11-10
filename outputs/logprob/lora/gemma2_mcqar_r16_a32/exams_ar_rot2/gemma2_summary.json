@@ -1,0 +1,27 @@
+{
+  "model": "google/gemma-2-9b-it",
+  "adapter": "/l/users/dang.nguyen/checkpoints/dllora/gemma2_mcqar_r16_a32",
+  "benchmark": "exams_ar",
+  "scoring": "letter_logprob",
+  "shots": 0,
+  "rotation": 2,
+  "questions": 537,
+  "accuracy": 0.5419,
+  "unparsed_rate": 0.0,
+  "chance": 0.25,
+  "always_A": 0.2421,
+  "pred_counts": {
+    "A": 131,
+    "B": 138,
+    "C": 132,
+    "D": 136
+  },
+  "accuracy_by_group": null,
+  "accuracy_by_task": {
+    "الأحياء": 0.3143,
+    "الاجتماعيات": 0.4669,
+    "الدراسات الإسلامية": 0.4795,
+    "العلوم": 0.8261,
+    "الفيزياء": 0.5476
+  }
+}

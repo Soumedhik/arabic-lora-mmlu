@@ -1,0 +1,27 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "adapter": null,
+  "benchmark": "exams_ar",
+  "scoring": "letter_logprob",
+  "shots": 0,
+  "rotation": 1,
+  "questions": 537,
+  "accuracy": 0.3836,
+  "unparsed_rate": 0.0,
+  "chance": 0.25,
+  "always_A": 0.2626,
+  "pred_counts": {
+    "A": 153,
+    "B": 151,
+    "C": 120,
+    "D": 113
+  },
+  "accuracy_by_group": null,
+  "accuracy_by_task": {
+    "الأحياء": 0.3143,
+    "الاجتماعيات": 0.3934,
+    "الدراسات الإسلامية": 0.3836,
+    "العلوم": 0.4348,
+    "الفيزياء": 0.2381
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "model": "meta-llama/Llama-3.1-8B-Instruct",
+  "adapter": null,
+  "benchmark": "arabicmmlu",
+  "scoring": "letter_logprob",
+  "shots": 0,
+  "rotation": 4,
+  "questions": 340,
+  "accuracy": 0.4794,
+  "unparsed_rate": 0.0,
+  "chance": 0.2,
+  "always_A": 0.4088,
+  "pred_counts": {
+    "A": 171,
+    "B": 66,
+    "C": 39,
+    "D": 19,
+    "E": 45
+  },
+  "accuracy_by_group": {
+    "Humanities": 0.5042,
+    "Language": 0.472,
+    "Other": 0.3333,
+    "STEM": 0.5,
+    "Social Science": 0.0
+  },
+  "accuracy_by_task": {
+    "Arabic Language (Grammar)": 0.472,
+    "Biology (High School)": 1.0,
+    "Driving Test": 0.0,
+    "General Knowledge": 1.0,
+    "General Knowledge (Middle School)": 0.0,
+    "Geography (Middle School)": 0.0,
+    "Islamic Studies (High School)": 0.9412,
+    "Islamic Studies (Primary School)": 1.0,
+    "Law (Professional)": 0.4257,
+    "Math (Primary School)": 0.0
+  }
+}

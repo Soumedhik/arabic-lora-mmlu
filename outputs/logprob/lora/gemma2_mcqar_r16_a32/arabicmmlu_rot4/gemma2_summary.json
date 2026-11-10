@@ -1,0 +1,39 @@
+{
+  "model": "google/gemma-2-9b-it",
+  "adapter": "/l/users/dang.nguyen/checkpoints/dllora/gemma2_mcqar_r16_a32",
+  "benchmark": "arabicmmlu",
+  "scoring": "letter_logprob",
+  "shots": 0,
+  "rotation": 4,
+  "questions": 340,
+  "accuracy": 0.7147,
+  "unparsed_rate": 0.0,
+  "chance": 0.2,
+  "always_A": 0.4088,
+  "pred_counts": {
+    "A": 145,
+    "B": 89,
+    "C": 35,
+    "D": 41,
+    "E": 30
+  },
+  "accuracy_by_group": {
+    "Humanities": 0.8067,
+    "Language": 0.6729,
+    "Other": 0.0,
+    "STEM": 1.0,
+    "Social Science": 0.5
+  },
+  "accuracy_by_task": {
+    "Arabic Language (Grammar)": 0.6729,
+    "Biology (High School)": 1.0,
+    "Driving Test": 0.0,
+    "General Knowledge": 0.0,
+    "General Knowledge (Middle School)": 0.0,
+    "Geography (Middle School)": 0.5,
+    "Islamic Studies (High School)": 0.7647,
+    "Islamic Studies (Primary School)": 1.0,
+    "Law (Professional)": 0.8119,
+    "Math (Primary School)": 1.0
+  }
+}

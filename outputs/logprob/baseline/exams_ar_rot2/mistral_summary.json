@@ -1,0 +1,27 @@
+{
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "adapter": null,
+  "benchmark": "exams_ar",
+  "scoring": "letter_logprob",
+  "shots": 0,
+  "rotation": 2,
+  "questions": 537,
+  "accuracy": 0.3408,
+  "unparsed_rate": 0.0,
+  "chance": 0.25,
+  "always_A": 0.2421,
+  "pred_counts": {
+    "A": 264,
+    "B": 59,
+    "C": 74,
+    "D": 140
+  },
+  "accuracy_by_group": null,
+  "accuracy_by_task": {
+    "الأحياء": 0.2857,
+    "الاجتماعيات": 0.3456,
+    "الدراسات الإسلامية": 0.3425,
+    "العلوم": 0.3913,
+    "الفيزياء": 0.2143
+  }
+}

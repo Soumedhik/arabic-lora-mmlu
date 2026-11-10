@@ -1,0 +1,26 @@
+{
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "adapter": "/l/users/dang.nguyen/checkpoints/dllora/qwen7b_mcqar_r16_a32",
+  "benchmark": "exams_ar",
+  "scoring": "letter_logprob",
+  "shots": 0,
+  "questions": 537,
+  "accuracy": 0.5307,
+  "unparsed_rate": 0.0,
+  "chance": 0.25,
+  "always_A": 0.2365,
+  "pred_counts": {
+    "A": 130,
+    "B": 132,
+    "C": 125,
+    "D": 150
+  },
+  "accuracy_by_group": null,
+  "accuracy_by_task": {
+    "الأحياء": 0.3714,
+    "الاجتماعيات": 0.4632,
+    "الدراسات الإسلامية": 0.4658,
+    "العلوم": 0.8609,
+    "الفيزياء": 0.3095
+  }
+}

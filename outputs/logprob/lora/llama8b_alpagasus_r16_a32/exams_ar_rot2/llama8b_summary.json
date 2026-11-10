@@ -1,0 +1,27 @@
+{
+  "model": "meta-llama/Llama-3.1-8B-Instruct",
+  "adapter": "/l/users/dang.nguyen/checkpoints/dllora/llama8b_alpagasus_r16_a32",
+  "benchmark": "exams_ar",
+  "scoring": "letter_logprob",
+  "shots": 0,
+  "rotation": 2,
+  "questions": 537,
+  "accuracy": 0.4749,
+  "unparsed_rate": 0.0,
+  "chance": 0.25,
+  "always_A": 0.2421,
+  "pred_counts": {
+    "A": 192,
+    "B": 110,
+    "C": 123,
+    "D": 112
+  },
+  "accuracy_by_group": null,
+  "accuracy_by_task": {
+    "الأحياء": 0.3429,
+    "الاجتماعيات": 0.4485,
+    "الدراسات الإسلامية": 0.3836,
+    "العلوم": 0.6609,
+    "الفيزياء": 0.4048
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "adapter": "/l/users/dang.nguyen/checkpoints/dllora/mistral_mcqar_r16_a32_lr5e-5",
+  "benchmark": "arabicmmlu",
+  "scoring": "letter_logprob",
+  "shots": 0,
+  "rotation": 4,
+  "questions": 340,
+  "accuracy": 0.5294,
+  "unparsed_rate": 0.0,
+  "chance": 0.2,
+  "always_A": 0.4088,
+  "pred_counts": {
+    "A": 162,
+    "B": 50,
+    "C": 44,
+    "D": 67,
+    "E": 17
+  },
+  "accuracy_by_group": {
+    "Humanities": 0.8151,
+    "Language": 0.3879,
+    "Other": 0.0,
+    "STEM": 0.0,
+    "Social Science": 0.0
+  },
+  "accuracy_by_task": {
+    "Arabic Language (Grammar)": 0.3879,
+    "Biology (High School)": 0.0,
+    "Driving Test": 0.0,
+    "General Knowledge": 0.0,
+    "General Knowledge (Middle School)": 0.0,
+    "Geography (Middle School)": 0.0,
+    "Islamic Studies (High School)": 0.8824,
+    "Islamic Studies (Primary School)": 1.0,
+    "Law (Professional)": 0.802,
+    "Math (Primary School)": 0.0
+  }
+}

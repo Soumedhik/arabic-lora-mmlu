@@ -1,0 +1,41 @@
+task,group,level,n,chance,llama8b,mistral,gemma2,qwen7b,qwen1.5b,mean,mean_minus_chance,model_std,all_right,all_wrong,biasA_llama8b,biasA_mistral,biasA_gemma2,biasA_qwen7b,biasA_qwen1.5b
+Arabic Language (High School),Language,High School,390,26.1,39.0,29.5,40.3,40.8,33.3,36.6,10.5,4.4,5.9,24.1,9.2,21.3,6.9,0.3,-0.5
+Biology (High School),STEM,High School,1409,29.8,43.6,35.4,52.3,47.8,36.1,43.0,13.2,6.6,9.7,19.2,10.0,21.4,2.6,5.5,13.8
+Civics (High School),Social Science,High School,87,29.6,39.1,33.3,49.4,46.0,46.0,42.8,13.2,5.8,20.7,35.6,-5.7,-8.0,-18.4,-17.2,-13.8
+Islamic Studies,Humanities,(none),639,25.5,43.8,32.6,48.0,44.8,33.0,40.4,14.9,6.4,8.9,22.5,8.8,30.8,2.8,6.6,7.8
+History (High School),Humanities,High School,760,26.3,44.2,32.8,47.4,48.3,39.7,42.5,16.2,5.7,10.3,21.2,1.2,-5.5,-2.8,1.8,-0.5
+Physics (High School),STEM,High School,255,25.0,42.4,32.2,50.6,49.8,34.5,41.9,16.9,7.6,6.7,19.2,14.5,11.4,0.4,3.9,11.4
+Social Science (Middle School),Social Science,Middle School,241,26.8,56.0,38.2,53.9,53.5,41.5,48.6,21.8,7.3,22.8,27.4,10.4,21.2,7.1,8.3,13.3
+Political Science (University),Social Science,University,210,31.2,49.5,42.9,62.4,63.3,47.6,53.1,21.9,8.2,15.2,13.3,-9.0,9.0,-6.2,-3.3,2.4
+General Knowledge,Other,(none),864,27.5,54.9,34.4,59.1,58.3,43.6,50.1,22.6,9.6,13.8,15.0,2.2,34.3,-2.3,4.6,1.2
+Accounting (University),Social Science,University,74,31.8,52.7,43.2,67.6,73.0,39.2,55.1,23.3,13.2,8.1,9.5,16.2,24.3,4.1,17.6,-12.2
+Geography (High School),Social Science,High School,1038,25.4,49.6,40.0,57.0,54.8,43.2,48.9,23.5,6.5,16.6,18.7,5.3,21.6,1.5,5.9,9.2
+Math (Primary School),STEM,Primary School,409,33.2,58.2,42.8,68.9,71.6,52.8,58.9,25.7,10.6,21.5,9.5,0.7,2.7,5.6,2.7,0.2
+History (Primary School),Humanities,Primary School,102,26.0,60.8,38.2,59.8,63.7,39.2,52.3,26.3,11.2,14.7,17.6,4.9,23.5,1.0,0.0,-3.9
+Civics (Middle School),Social Science,Middle School,236,25.0,55.9,41.1,62.3,52.1,45.8,51.4,26.4,7.4,16.9,15.3,2.1,-1.7,0.0,3.4,6.8
+Management (University),Other,University,75,41.7,65.3,60.0,73.3,78.7,65.3,68.5,26.8,6.6,45.3,16.0,18.7,13.3,6.7,2.7,6.7
+Computer Science (Primary School),STEM,Primary School,190,42.7,72.1,58.9,80.0,74.7,65.8,70.3,27.6,7.3,35.8,4.7,8.4,10.5,-4.2,-13.7,-4.2
+History (Middle School),Humanities,Middle School,203,28.2,58.6,38.4,64.0,65.0,54.7,56.1,27.9,9.6,21.7,15.3,10.8,31.0,5.9,8.9,10.3
+Geography (Middle School),Social Science,Middle School,272,29.3,65.8,42.3,71.7,67.3,53.7,60.2,30.9,10.7,22.8,12.1,5.1,18.4,2.6,5.9,7.0
+Social Science (Primary School),Social Science,Primary School,705,37.8,73.8,58.6,76.0,74.8,63.1,69.3,31.5,7.0,36.6,6.8,4.0,-3.5,-0.3,-3.4,7.8
+Driving Test,Other,(none),1211,35.5,69.0,61.0,73.8,72.4,60.9,67.4,31.9,5.5,35.9,9.1,0.2,16.3,-0.4,-2.6,-0.5
+Economics (High School),Social Science,High School,360,26.4,58.3,42.8,68.6,66.7,58.3,58.9,32.5,9.1,24.7,12.2,5.8,18.3,0.6,3.9,7.8
+Philosophy (High School),Humanities,High School,39,25.0,66.7,41.0,66.7,66.7,46.2,57.5,32.5,11.4,25.6,10.3,-2.6,12.8,-10.3,-2.6,2.6
+Computer Science (High School),STEM,High School,261,26.8,59.4,49.4,64.0,67.4,56.7,59.4,32.6,6.2,21.8,10.3,4.6,12.6,3.8,0.8,1.5
+Arabic Language (Primary School),Language,Primary School,252,28.0,65.5,46.4,71.0,69.0,52.4,60.9,32.9,9.7,24.6,9.9,-8.3,-4.0,-8.7,-2.0,-12.7
+Economics (University),Social Science,University,137,25.4,61.3,45.3,65.7,65.0,55.5,58.6,33.2,7.6,19.7,13.9,-0.7,16.8,3.6,5.8,0.7
+Law (Professional),Humanities,Professional,314,27.0,68.5,54.8,59.6,72.6,47.1,60.5,33.5,9.2,24.8,10.2,-4.1,1.0,8.3,-5.7,-0.6
+Islamic Studies (Middle School),Humanities,Middle School,238,27.7,67.6,48.7,67.2,68.5,60.1,62.4,34.7,7.5,32.4,13.4,2.5,13.4,-0.4,2.1,0.8
+Arabic Language (Grammar),Language,Grammar,365,24.9,64.9,43.8,70.7,74.0,44.9,59.7,34.8,12.8,20.0,9.3,-3.3,5.2,0.8,-0.3,-17.8
+Islamic Studies (High School),Humanities,High School,334,26.5,67.7,47.6,69.2,69.8,56.0,62.1,35.6,8.8,28.1,10.8,1.2,5.1,1.5,5.1,11.4
+Arabic Language (Middle School),Language,Middle School,27,26.2,77.8,44.4,70.4,55.6,63.0,62.2,36.0,11.6,11.1,3.7,7.4,22.2,11.1,0.0,0.0
+Geography (Primary School),Social Science,Primary School,57,27.6,66.7,50.9,68.4,73.7,63.2,64.6,37.0,7.6,35.1,10.5,1.8,10.5,-1.8,7.0,10.5
+Islamic Studies (Primary School),Humanities,Primary School,999,36.1,75.3,64.8,80.3,78.6,68.0,73.4,37.3,6.0,46.4,5.8,3.7,11.3,0.8,0.0,1.6
+General Knowledge (Middle School),Other,Middle School,172,28.1,67.4,49.4,75.6,72.1,62.8,65.5,37.4,9.1,37.2,11.6,2.9,19.2,1.2,7.0,8.7
+General Knowledge (Primary School),Other,Primary School,162,25.8,67.9,51.2,72.8,70.4,56.8,63.8,38.0,8.4,34.0,12.3,0.6,3.1,1.2,1.2,4.9
+Natural Science (Middle School),STEM,Middle School,242,26.0,70.2,46.3,77.3,78.1,54.1,65.2,39.2,12.8,25.6,7.9,2.5,2.5,2.1,1.2,11.2
+Computer Science (University),STEM,University,64,25.1,65.6,51.6,70.3,75.0,59.4,64.4,39.3,8.2,34.4,9.4,1.6,12.5,0.0,1.6,4.7
+Arabic Language (General),Language,General,612,25.6,68.1,54.7,75.5,76.0,62.7,67.4,41.8,8.0,37.7,9.8,5.9,3.4,3.6,2.1,2.5
+Natural Science (Primary School),STEM,Primary School,336,28.8,77.7,51.5,88.1,83.6,61.0,72.4,43.6,13.9,34.5,5.1,0.0,12.2,-1.5,-3.3,0.6
+Economics (Middle School),Social Science,Middle School,87,25.0,73.6,59.8,78.2,75.9,73.6,72.2,47.2,6.4,44.8,9.2,1.1,3.4,3.4,1.1,-3.4
+Computer Science (Middle School),STEM,Middle School,27,28.7,77.8,66.7,88.9,88.9,88.9,82.2,53.5,8.9,55.6,0.0,3.7,18.5,0.0,-3.7,3.7

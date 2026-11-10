@@ -1,0 +1,25 @@
+{
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "adapter": "/l/users/dang.nguyen/checkpoints/dllora/mistral_mcqar_r16_a32",
+  "benchmark": "exams_ar",
+  "scoring": "letter_logprob",
+  "shots": 0,
+  "rotation": 1,
+  "questions": 537,
+  "accuracy": 0.2458,
+  "unparsed_rate": 0.0,
+  "chance": 0.25,
+  "always_A": 0.2626,
+  "pred_counts": {
+    "A": 522,
+    "B": 15
+  },
+  "accuracy_by_group": null,
+  "accuracy_by_task": {
+    "الأحياء": 0.2857,
+    "الاجتماعيات": 0.2463,
+    "الدراسات الإسلامية": 0.3014,
+    "العلوم": 0.2522,
+    "الفيزياء": 0.0952
+  }
+}

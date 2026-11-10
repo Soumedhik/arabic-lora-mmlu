@@ -1,0 +1,27 @@
+{
+  "model": "google/gemma-2-9b-it",
+  "adapter": null,
+  "benchmark": "exams_ar",
+  "scoring": "letter_logprob",
+  "shots": 0,
+  "rotation": 0,
+  "questions": 537,
+  "accuracy": 0.514,
+  "unparsed_rate": 0.0,
+  "chance": 0.25,
+  "always_A": 0.2365,
+  "pred_counts": {
+    "A": 151,
+    "B": 138,
+    "C": 143,
+    "D": 105
+  },
+  "accuracy_by_group": null,
+  "accuracy_by_task": {
+    "الأحياء": 0.3143,
+    "الاجتماعيات": 0.4485,
+    "الدراسات الإسلامية": 0.4795,
+    "العلوم": 0.7826,
+    "الفيزياء": 0.4286
+  }
+}
